@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "7f332d461d5e81564beabe484a7340288cef44c0"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "netcore_consoleapp/1.0.0": {
+        "dependencies": {
+          "Microsoft.NET.Sdk": "1.0.0-alpha-20161102-4",
+          "NetStandard_ClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "NetCore_ConsoleApp.dll": {},
+          "netstandard.dll": {},
+          "PowerCollections.dll": {}
+        }
+      },
+      "microsoft.net.sdk/1.0.0-alpha-20161102-4": {
+        "dependencies": {
+          "NuGet.Build.Tasks.Pack": "4.0.0-rc-2037"
+        }
+      },
+      "nuget.build.tasks.pack/4.0.0-rc-2037": {},
+      "netstandard_classlibrary/1.0.0": {
+        "runtime": {
+          "NetStandard_ClassLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "netcore_consoleapp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "microsoft.net.sdk/1.0.0-alpha-20161102-4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UxicVy8MDsedSudOYDtF/EZtfai5O6ux0M6f/57qMUnoM1EyFy+HcuqNc8QoJvsMqMvZ5nRJPG1TVxsqJeCpIw==",
+      "path": "microsoft.net.sdk/1.0.0-alpha-20161102-4",
+      "hashPath": "microsoft.net.sdk.1.0.0-alpha-20161102-4.nupkg.sha512"
+    },
+    "nuget.build.tasks.pack/4.0.0-rc-2037": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RetxHPN2klP8oD+nfz0grtbBd1OUu1MFk5eQ6Raf29sYL8ICGS9sE5MxuyctQuuecT43JQdjpNpVgfZod9EjPg==",
+      "path": "nuget.build.tasks.pack/4.0.0-rc-2037",
+      "hashPath": "nuget.build.tasks.pack.4.0.0-rc-2037.nupkg.sha512"
+    },
+    "netstandard_classlibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
