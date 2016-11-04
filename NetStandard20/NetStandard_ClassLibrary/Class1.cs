@@ -7,15 +7,15 @@ namespace ClassLibrary1
     {
         public void Test()
         {
-            //var list = new List<int>
-            //{
-            //    1, 2, 4, 8, 16
-            //};
+            var list = new List<int>
+            {
+                1, 2, 4, 8, 16
+            };
 
-            //int index;
-            //Wintellect.PowerCollections.Algorithms.BinarySearch(list, 4, out index);
+            int index;
+            Wintellect.PowerCollections.Algorithms.BinarySearch(list, 4, out index);
 
-            //Console.WriteLine(index);
+            Console.WriteLine(index);
         }
     }
 }
